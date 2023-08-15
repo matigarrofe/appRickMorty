@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Montserrat:ital,wght@0,100;0,200;0,500;1,100;1,200;1,300&family=Roboto+Condensed:wght@300&family=Victor+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Delicious Handrawn", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Victor Mono", monospace;
+}
+
+body {
+  text-align: center !important;
+  margin: 10px;
+  background: rgb(210, 216, 237);
+  background: linear-gradient(
+    0deg,
+    rgba(210, 216, 237, 1) 0%,
+    rgba(85, 234, 152, 1) 47%,
+    rgba(30, 29, 70, 0.8827906162464986) 100%
+  );
+}
+
+#resultado {
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#episodios {
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#locaciones {
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 10px;
+}
